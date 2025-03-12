@@ -8,7 +8,5 @@ export default defineConfig({
   base: '/PORTFOLIO',
   integrations: [tailwind()],
   output: 'static',
-  build: {
-    assets: '_assets'
-  }
+  trailingSlash: 'always'
 });
